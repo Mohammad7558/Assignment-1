@@ -12,6 +12,11 @@
     font-size: 30px;
 }
 
+.peragraph{
+    font-size: 15px;
+    line-height: 25px;
+}
+
 .button{
     border: none;
     padding: 13px 30px;
@@ -213,6 +218,7 @@ body{
     padding: 30px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 40px;
     border-radius: 15px;
 }
@@ -233,3 +239,49 @@ body{
     margin-top: 30px;
 }
 /* recent section style end */
+
+
+/* donate now section style start */
+.donate_now_section{
+    text-align: center;
+    margin-top: 150px;
+}
+.donate_now_pera{
+    margin-top: 15px;
+}
+.donate_amount_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.donate_amount_card > h1{
+    padding: 30px;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 35px;
+    border: 1px solid #0000003a;
+    transition: 0.3s ease-in-out all;
+}
+.donate_amount_card > .card_one:hover{
+    background-color: lightblue;
+}
+.donate_amount_card > .card_two:hover{
+    background-color: lightgreen;
+}
+.donate_amount_card > .card_three:hover{
+    background-color: lightsalmon;
+}
+.donate_amount_card > .card_four:hover{
+    background-color: lightseagreen;
+}
+.donate_now_input{
+    margin: 30px 0;   
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #00000032;
+    border-radius: 8px;
+    text-align: center;
+}
+/* donate now section style end */
