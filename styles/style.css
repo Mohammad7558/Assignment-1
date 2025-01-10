@@ -7,6 +7,28 @@
     font-family: "Montserrat", serif;
 }
 
+/* reuse styles start */
+.title{
+    font-size: 30px;
+}
+
+.button{
+    border: none;
+    padding: 13px 30px;
+    background-color: #0fa4af;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.button:hover{
+    background-color: #204950;
+    transition: 0.2s ease all;
+}
+/* reuse styles end */
+
+
 body{
     width: 80%;
     margin: auto;
@@ -102,3 +124,57 @@ body{
     line-height: 25px;
 }
 /* pillars card style end */
+
+/* The Vision of Future style start */
+.the_vision_of_future{
+    margin-top: 170px;
+}
+.vision_pera{
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+.future_card_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.future_card{
+    background-color: lightsalmon;
+    padding: 20px;
+    border-radius: 10PX;
+    margin-top: 30px;
+}
+
+.future_card_one{
+    background-color: #D5E1F5;
+}
+.future_card_one > button{
+    background-color: #548FF5;
+}
+.future_card_two{
+    background-color: #C6E4D6;
+}
+.future_card_two > button{
+    background-color: #04A15B;
+}
+.future_card_three{
+    background-color: #F7EBCF;
+}
+.future_card_three > button{
+    background-color: #FFC13A;
+}
+.future_card img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+.future_card h1{
+    font-size: 22px;
+}
+.future_card p{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* The Vision of Future style end */
