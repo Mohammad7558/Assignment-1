@@ -34,11 +34,20 @@
 }
 /* reuse styles end */
 
-
-body{
+header{
+    background-color: #F5F5F5;
+}
+nav{
     width: 80%;
     margin: auto;
+}
+main{
     background-color: #F5F5F5;
+    padding-bottom: 100px;
+}
+.parent_section{
+    width: 80%;
+    margin: auto;
 }
 /* header section style start */
 .header_section{
@@ -332,3 +341,24 @@ body{
     margin-top: 25px;
 }
 /* .Newsletter section style end */
+
+footer{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.footer_section h1{
+    text-align: center;
+    border-bottom: 1px solid #00000025;
+    padding-bottom: 20px;
+}
+
+.social_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    gap: 20px;
+}
