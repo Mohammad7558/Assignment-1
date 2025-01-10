@@ -25,7 +25,7 @@
     color: white;
     font-weight: 600;
     letter-spacing: 0.5px;
-    font-size: 18px;
+    font-size: 17px;
     border-radius: 8px;
 }
 .button:hover{
@@ -142,12 +142,12 @@ main{
 
 /* The Vision of Future style start */
 .the_vision_of_future{
-    margin-top: 170px;
+    margin-top: 70px;
 }
 .vision_pera{
     font-size: 15px;
     line-height: 25px;
-    margin-top: 15px;
+
 }
 .future_card_section{
     display: flex;
@@ -161,7 +161,9 @@ main{
     border-radius: 10PX;
     margin-top: 30px;
 }
-
+.future_card p{
+    line-height: 27px;
+}
 .future_card_one{
     background-color: #D5E1F5;
 }
@@ -216,12 +218,12 @@ main{
 
 /* recent section style start */
 .recent_section{
-    margin-top: 150px;
+    margin-top: 70px;
 }
 .recent_news_pera{
     font-size: 15px;
     line-height: 25px;
-    margin: 20px 0 30px 0;
+    margin-bottom: 20px;
 }
 .news_section_card{
     background-color: white;
@@ -254,7 +256,7 @@ main{
 /* donate now section style start */
 .donate_now_section{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 80px;
 }
 .donate_now_pera{
     margin-top: 15px;
