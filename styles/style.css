@@ -10,6 +10,7 @@
 /* reuse styles start */
 .title{
     font-size: 30px;
+    line-height: 50px;
 }
 
 .peragraph{
@@ -285,3 +286,49 @@ body{
     text-align: center;
 }
 /* donate now section style end */
+
+
+
+
+/* .Newsletter section style start */
+.newsletter_section{
+    background-color: #C6E4D6;
+    padding: 50px;
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+.newsletter_section_input{
+    width: 50%;
+    padding: 25px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    margin-top: 30px;
+}
+.newsletter_section_input::placeholder{
+    font-size: 18px;
+}
+.newsletter_section_field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newsletter_section_button{
+    background-color: #04A15B;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 23px;
+    margin-top: 30px;
+    color: white;
+    transition: 0.3s all ease;
+}
+.newsletter_section_button:hover{
+    background-color: lightblue;
+    color: black;
+}
+.promise_text{
+    margin-top: 25px;
+}
+/* .Newsletter section style end */
