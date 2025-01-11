@@ -314,8 +314,11 @@ main{
 .donate_amount_card > .card_one:hover{
     background-color: lightblue;
 }
+.donate_amount_card > .card_two{
+    background: #7de4b4;
+}
 .donate_amount_card > .card_two:hover{
-    background-color: lightgreen;
+    background-color: #4eaa7f;
 }
 .donate_amount_card > .card_three:hover{
     background-color: lightsalmon;
