@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", serif;
+    font-family: "Fira Sans", serif;
 }
 
 /* reuse styles start */
 .title{
-    font-size: 30px;
+    font-size: 40px;
     line-height: 50px;
 }
 
@@ -82,7 +82,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
+    padding: 117px 50px 117px 60px;
 }
 
 .banner_section_title{
@@ -92,6 +92,8 @@ main{
 }
 .banner_section_small{
     color: black;
+    font-size: 24px;
+    color: #0E0E0E;
 }
 .banner_section_button{
     border: none;
@@ -160,6 +162,7 @@ main{
     padding: 20px;
     border-radius: 10PX;
     margin-top: 30px;
+    width: 33%;
 }
 .future_card p{
     line-height: 27px;
@@ -178,6 +181,9 @@ main{
 }
 .future_card_three{
     background-color: #F7EBCF;
+}
+#sp_image{
+    width: 65px;
 }
 .future_card_three > button{
     background-color: #FFC13A;
@@ -236,6 +242,16 @@ main{
 }
 .news_section_card_img{
     border-radius: 15px;
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+.news_section_card_title{
+    font-size: 32px;
+}
+.news_section_card_logo{
+    width: 120px;
+    margin-top: 10px;
 }
 .news_time_date{
     margin-top: 15px;
