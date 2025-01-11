@@ -11,6 +11,7 @@
 .title{
     font-size: 40px;
     line-height: 50px;
+    margin-bottom: 10px;
 }
 
 .peragraph{
@@ -169,18 +170,30 @@ main{
 }
 .future_card_one{
     background-color: #D5E1F5;
+    transition: 0.3s ease all;
+}
+.future_card_one:hover{
+    background-color: #94b9f8;
 }
 .future_card_one > button{
     background-color: #548FF5;
 }
 .future_card_two{
     background-color: #C6E4D6;
+    transition: 0.3s ease all;
+}
+.future_card_two:hover{
+    background-color: #7de4b4;
 }
 .future_card_two > button{
     background-color: #04A15B;
 }
 .future_card_three{
     background-color: #F7EBCF;
+    transition: 0.3s ease all;
+}
+.future_card_three:hover{
+    background-color: #f0d18a;
 }
 #sp_image{
     width: 65px;
